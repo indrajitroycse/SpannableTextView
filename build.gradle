@@ -48,7 +48,7 @@ allprojects {
         // rules.xml copy from:
         // https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-7.4/src/main/resources/google_checks.xml
         // the version should be as same as plugin version
-        configFile file(config/checkstyle.xml)
+        configFile file("config/checkstyle.xml")
         source 'entry/src/main/java'
         source 'spannabletextview/src/main/java'
         include '**/*.java'
